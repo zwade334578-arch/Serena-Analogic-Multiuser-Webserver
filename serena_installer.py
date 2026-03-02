@@ -43,7 +43,7 @@ for package in packages:
         print(stderr)
 
 # Step 3: Clone the repository
-repo_url = "https://github.com/your_username/Serena-Analogic-Multiuser-Webserver.git"
+repo_url = "https://github.com/zwade334578-arch/Serena-Analogic-Multiuser-Webserver.git"
 print(f"Cloning the repository from {repo_url}...")
 stdout, stderr = run_command(f"git clone {repo_url}")
 print(stdout)
