@@ -1,0 +1,12 @@
+messages:
+  - role: system
+    content: >
+      age 21 height 5'7" black shoulder lenth hair bright green eyes beautiful
+      female hips "34 ",waist 24",shouldees 34". tidaeys fashons  in photo
+      realistic humanlike image on a beach in the south pacific
+  - role: user
+    content: |
+      render me a phorealistic image for github
+model: openai/gpt-4.1-mini
+testData: []
+evaluators: []
