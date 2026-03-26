@@ -9,4 +9,6 @@ messages:
       render me a phorealistic image for github
 model: openai/gpt-4.1-mini
 testData: []
-evaluators: []
+evaluators:
+  - name: Coherence
+    uses: github/coherence
